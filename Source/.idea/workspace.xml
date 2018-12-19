@@ -2,37 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="429b9845-c63c-4041-b736-39db87787c2d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Chapter1/.idea/Charpter1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter1/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter1/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter1/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter1/.idea/other.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter1/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter1/01 theMean.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter1/02 bernoully.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter1/03 uniformDistribution.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter1/04 normalDistribution.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter1/05 logisticDistribution.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter1/06 slidingTheSlope.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter2/data/blue_jay.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter2/data/iris.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter2/data/mpg.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter2/data/sample_missing_data.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter2/exploratoryAnalisys.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter2/workingWith2dData.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter2/oneHotEncoding.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Charpter1/.idea/Charpter1.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Charpter1/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Charpter1/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Charpter1/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Charpter1/.idea/other.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Charpter1/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Charpter1/01 theMean.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Charpter1/02 bernoully.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Charpter1/03 uniformDistribution.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Charpter1/04 normalDistribution.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Charpter1/05 logisticDistribution.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Charpter1/06 slidingTheSlope.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,6 +14,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Source$02_bernoully.coverage" NAME="02 bernoully Coverage Results" MODIFIED="1545173603014" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Charpter1" />
     <SUITE FILE_PATH="coverage/Source$03_uniformDistribution.coverage" NAME="03 uniformDistribution Coverage Results" MODIFIED="1545173625204" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Charpter1" />
+    <SUITE FILE_PATH="coverage/Source$oneHotEncoding.coverage" NAME="oneHotEncoding Coverage Results" MODIFIED="1545244558684" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter2" />
     <SUITE FILE_PATH="coverage/Source$exploratoryAnalisys.coverage" NAME="exploratoryAnalisys Coverage Results" MODIFIED="1545237876276" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter2" />
     <SUITE FILE_PATH="coverage/Source$01_theMean.coverage" NAME="01 theMean Coverage Results" MODIFIED="1545173581777" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Charpter1" />
     <SUITE FILE_PATH="coverage/Source$04_normalDistribution.coverage" NAME="04 normalDistribution Coverage Results" MODIFIED="1545173633510" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Charpter1" />
@@ -55,7 +27,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Chapter2/exploratoryAnalisys.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
+            <state relative-caret-position="315">
               <caret line="22" selection-start-line="22" selection-end-line="22" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
@@ -64,14 +36,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Chapter2/workingWith2dData.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
               <folding>
                 <element signature="e#0#17#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Chapter2/oneHotEncoding.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -99,6 +80,7 @@
         <option value="$PROJECT_DIR$/Chapter2/exploratoryAnalisys.py" />
         <option value="$PROJECT_DIR$/Chapter2/data/workingWith2dData.py" />
         <option value="$PROJECT_DIR$/Chapter2/workingWith2dData.py" />
+        <option value="$PROJECT_DIR$/Chapter2/oneHotEncoding.py" />
       </list>
     </option>
   </component>
@@ -127,12 +109,6 @@
               <item name="Source" type="462c0819:PsiDirectoryNode" />
               <item name="Chapter2" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Source" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Source" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter2" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -159,29 +135,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.workingWith2dData">
-    <configuration name="04 normalDistribution" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Source" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Charpter1" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Charpter1/04 normalDistribution.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.oneHotEncoding">
     <configuration name="05 logisticDistribution" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Source" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -226,6 +180,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="Source" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="exploratoryAnalisys" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Source" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -240,6 +216,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter2/exploratoryAnalisys.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="oneHotEncoding" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Source" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter2/oneHotEncoding.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -272,11 +270,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.oneHotEncoding" />
         <item itemvalue="Python.workingWith2dData" />
         <item itemvalue="Python.exploratoryAnalisys" />
         <item itemvalue="Python.06 slidingTheSlope" />
         <item itemvalue="Python.05 logisticDistribution" />
-        <item itemvalue="Python.04 normalDistribution" />
       </list>
     </recent_temporary>
   </component>
@@ -293,22 +291,32 @@
       <workItem from="1545172849727" duration="794000" />
       <workItem from="1545234107716" duration="31000" />
       <workItem from="1545234261481" duration="1584000" />
-      <workItem from="1545237264749" duration="3989000" />
+      <workItem from="1545237264749" duration="4170000" />
+      <workItem from="1545243860937" duration="694000" />
     </task>
+    <task id="LOCAL-00001" summary="Adding Chapter 2 exercises for exploratory analysis and 2d images">
+      <created>1545241275376</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1545241275376</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6398000" />
+    <option name="totallyTimeSpent" value="7273000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1916" y="0" width="1928" height="1084" extended-state="6" />
+    <frame x="1920" y="0" width="1920" height="1080" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.08271078" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.0832444" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32878152" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32878152" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39915967" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -318,11 +326,12 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.24369748" />
-      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="bottom" id="Python Console" order="12" visible="true" weight="0.32983193" />
+      <window_info anchor="right" x="0" y="0" width="430" height="880" id="Documentation" sideWeight="0.5015674" side_tool="true" visible="true" weight="0.24919957" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info active="true" anchor="right" id="SciView" order="3" visible="true" weight="0.24919957" />
+      <window_info anchor="right" id="SciView" order="3" sideWeight="0.4984326" visible="true" weight="0.24919957" />
       <window_info anchor="right" id="R Graphics" order="4" />
       <window_info anchor="right" id="R Packages" order="5" />
       <window_info anchor="right" id="Database" order="6" />
@@ -337,19 +346,7 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Charpter1/01 theMean.py" />
-    <entry file="file://$PROJECT_DIR$/Chapter2/data/workingWith2dData.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter2/exploratoryAnalisys.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter2/data/workingWith2dData.py" />
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydevd_bundle/pydevd_breakpoints.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="181">
@@ -378,13 +375,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter2/exploratoryAnalisys.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Chapter2/workingWith2dData.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
           <folding>
             <element signature="e#0#17#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter2/oneHotEncoding.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
