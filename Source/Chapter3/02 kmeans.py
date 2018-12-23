@@ -1,8 +1,9 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-samples = np.array([[1,2],[12,2],[0,1],[10,0],[9,1],[8,2],[0,10],[1,8],[2,9],[9,9],[10,8],[8,9] ], dtype=np.float)
-centers = np.array([[3,2], [2,6], [9,3], [7,6]], dtype=np.float)
+samples = np.array([[1, 2], [12, 2], [0, 1], [10, 0], [9, 1], [8, 2], [0, 10], [1, 8], [2, 9], [9, 9], [10, 8], [8, 9]],
+                   dtype=np.float)
+centers = np.array([[3, 2], [2, 6], [9, 3], [7, 6]], dtype=np.float)
 N = len(samples)
 
 fig, ax = plt.subplots()

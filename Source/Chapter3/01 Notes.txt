@@ -1,5 +1,8 @@
 # Start reviewing unsepervised methods
 # Clustering
+
+********************* K means *********************
+
 # K-means, this is the distance to a common center
 
 #Automating the clustering process is following the next steps
@@ -39,16 +42,42 @@ the distance can be linear, queadratic, and other forms
 The goal of this method is to minimize the sum of squared distances from the cluster’s members
 to the actual centroid of all clusters that contain samples. This is also known as minimization of inertia.
 
-=== Pros and cons of K-means ===
+=== Pros and cons ===
 
-The advantages of this method are as follows:
+Pros:
 
     It scales very well (most of the calculations can be run in parallel)
     It has been used in a very large range of applications
 
-But simplicity also has some costs (the no silver bullet rule applies):
+Cons:
 
     It requires a priori knowledge (the number of possible clusters should be known beforehand)
     The outlier values can skew the values of the centroids, as they have the same weight as any other sample
     As we assume that the figure is convex and isotropic, it doesn’t work very well with non blob alike clusters
+
+
+********************* Nearest Neighbors *********************
+
+It builds groups of samples, supposing that each new sample will have the same class as its neighbors,
+without looking for a global representative central sample. Instead, it looks at the environment,
+looking for the most frequent class on each new sample's environment.
+
+It has many configurations, but the following is using the semi-supervised approach.
+
+1) Init values
+2) Add new value to classify
+3) Calculate distances
+4) Assign class of the nearest sample
+5) More data?
+    Yes, Go step 2
+    No, Continue
+6) End
+
+=== Pros and cons ===
+Pros
+    Simplicity, no neeed of tune parameters
+    No formal training needed
+
+Cons
+    Computational expensive, a recommendation is to use cache
 
