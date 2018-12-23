@@ -1,0 +1,54 @@
+# Start reviewing unsepervised methods
+# Clustering
+# K-means, this is the distance to a common center
+
+#Automating the clustering process is following the next steps
+# 1) Init Values
+# 2) Try to insert a new value
+# 3) Recalculate groupings
+# 4) Stop Criteria met?
+#   Yes. Go step 2
+#   No. Go next step
+# 5) End
+
+K means
+As mentioned before, this is the distance to a common center
+
+the distance can be linear, queadratic, and other forms
+* Euclidean distance:This distance metric calculates the distance in the form of a straight line between two points:
+
+  SqrRoot ( (x1-x2)² + (y1-y2)² )
+
+* Chebyshev distance: This distance is equivalent to the maximum distance, along any of the axes. It's
+  also called the chess distance, because it gives the minimum quantity of moves a king needs to get from
+  the initial point to the final point.
+
+  max(|x1 - x2| , |y1 - y2|)
+
+* Manhattan distance: This distance is the equivalent to going from one point to another in a city, with unit squares.
+  This L1-type distance sums the number of horizontal units advanced, and the number of vertical ones.
+
+  |x1 - x2| , |y1 - y2|
+
+!!!   K means uses Euclidean distance  !!!
+
+=== Goal ===
+
+    "A sample will be assigned to the group represented by the closest centroid."
+
+The goal of this method is to minimize the sum of squared distances from the cluster’s members
+to the actual centroid of all clusters that contain samples. This is also known as minimization of inertia.
+
+=== Pros and cons of K-means ===
+
+The advantages of this method are as follows:
+
+    It scales very well (most of the calculations can be run in parallel)
+    It has been used in a very large range of applications
+
+But simplicity also has some costs (the no silver bullet rule applies):
+
+    It requires a priori knowledge (the number of possible clusters should be known beforehand)
+    The outlier values can skew the values of the centroids, as they have the same weight as any other sample
+    As we assume that the figure is convex and isotropic, it doesn’t work very well with non blob alike clusters
+
