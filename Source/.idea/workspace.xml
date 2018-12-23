@@ -2,10 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="429b9845-c63c-4041-b736-39db87787c2d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Chapter2/.directory" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter4/01 Linear and Logistic Regression Notes.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter3/01 Notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter3/01 Notes.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter3/02 kmeans.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter3/02 kmeans.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter3/03 Nearest neighbors.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter3/03 Nearest neighbors.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter2/confusionMatrix.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter2/07 confusionMatrix.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter2/exploratoryAnalisys.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter2/01 exploratoryAnalisys.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter2/normalizationOrStandardization.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter2/04 normalizationOrStandardization.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter2/oneHotEncoding.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter2/03 oneHotEncoding.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter2/parameterInitialization.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter2/05 parameterInitialization.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter2/regressionMetrics.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter2/06 regressionMetrics.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter2/workingWith2dData.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter2/02 workingWith2dData.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter3/01 Notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter3/01 Clustering Notes.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,32 +32,7 @@
     <SUITE FILE_PATH="coverage/Source$05_logisticDistribution.coverage" NAME="05 logisticDistribution Coverage Results" MODIFIED="1545173643337" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Charpter1" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Chapter3/02 kmeans.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="31" column="14" lean-forward="true" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="14" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Chapter3/03 Nearest neighbors.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="644">
-              <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -84,15 +66,16 @@
         <option value="$PROJECT_DIR$/Chapter2/regressionMetrics.py" />
         <option value="$PROJECT_DIR$/Chapter2/confusionMatrix.py" />
         <option value="$PROJECT_DIR$/Chapter3/grouping.py" />
-        <option value="$PROJECT_DIR$/Chapter3/01 Notes.txt" />
         <option value="$PROJECT_DIR$/Chapter3/02 kmeans.py" />
         <option value="$PROJECT_DIR$/Chapter3/03 Nearest neighbors.py" />
+        <option value="$PROJECT_DIR$/Chapter3/01 Notes.txt" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="width" value="1920" />
-    <option name="height" value="1044" />
+    <option name="x" value="2055" />
+    <option name="width" value="1272" />
+    <option name="height" value="716" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -102,7 +85,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -113,12 +95,13 @@
             <path>
               <item name="Source" type="b2602c69:ProjectViewProjectNode" />
               <item name="Source" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter3" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter4" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -167,6 +150,9 @@
       <module name="Source" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter3" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -302,7 +288,9 @@
       <workItem from="1545362172573" duration="3931000" />
       <workItem from="1545524933187" duration="5546000" />
       <workItem from="1545542131161" duration="2574000" />
-      <workItem from="1545573919492" duration="3240000" />
+      <workItem from="1545573919492" duration="3454000" />
+      <workItem from="1545585771364" duration="126000" />
+      <workItem from="1545588654009" duration="1128000" />
     </task>
     <task id="LOCAL-00001" summary="Adding Chapter 2 exercises for exploratory analysis and 2d images">
       <created>1545241275376</created>
@@ -346,17 +334,23 @@
       <option name="project" value="LOCAL" />
       <updated>1545544738049</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Modified &quot;03 Nearest neighbors&quot; file, implemented.">
+      <created>1545577365322</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1545577365322</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24700000" />
+    <option name="totallyTimeSpent" value="26168000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1044" extended-state="6" />
-    <editor active="true" />
+    <frame x="1920" y="0" width="1920" height="1080" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.08804696" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.09018143" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -370,16 +364,16 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3278867" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.24369748" />
-      <window_info anchor="bottom" id="Python Console" order="12" visible="true" weight="0.20742358" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.24369748" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.19957983" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" sideWeight="0.5385675" visible="true" weight="0.30256137" />
+      <window_info anchor="right" id="SciView" order="3" sideWeight="0.5347222" visible="true" weight="0.30256137" />
       <window_info anchor="right" id="R Graphics" order="4" />
       <window_info anchor="right" id="R Packages" order="5" />
       <window_info anchor="right" id="Database" order="6" />
-      <window_info active="true" anchor="right" x="0" y="0" width="430" height="880" id="Documentation" order="7" sideWeight="0.46143252" side_tool="true" visible="true" weight="0.30256137" />
+      <window_info anchor="right" x="0" y="0" width="430" height="880" id="Documentation" order="7" sideWeight="0.4652778" side_tool="true" visible="true" weight="0.30256137" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -431,7 +425,8 @@
     <MESSAGE value="Added Normalization or standardization exercise" />
     <MESSAGE value="Added Chapter 3, &quot;02 kmeans.py&quot; file is WIP" />
     <MESSAGE value="Modified &quot;02 kmeans.py&quot; completed, but there seems to be a bug in the chart.&#10;Added &quot;03 Nearest neighbors&quot; file, empty." />
-    <option name="LAST_COMMIT_MESSAGE" value="Modified &quot;02 kmeans.py&quot; completed, but there seems to be a bug in the chart.&#10;Added &quot;03 Nearest neighbors&quot; file, empty." />
+    <MESSAGE value="Modified &quot;03 Nearest neighbors&quot; file, implemented." />
+    <option name="LAST_COMMIT_MESSAGE" value="Modified &quot;03 Nearest neighbors&quot; file, implemented." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Charpter1/01 theMean.py" />
@@ -529,27 +524,27 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Chapter3/grouping.py" />
-    <entry file="file://$PROJECT_DIR$/Chapter3/01 Notes.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="669">
-          <caret line="83" lean-forward="true" selection-start-line="83" selection-end-line="83" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Chapter3/02 kmeans.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
-          <caret line="31" column="14" lean-forward="true" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="14" />
+          <caret line="31" column="14" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="14" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter3/01 Notes.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Chapter3/03 Nearest neighbors.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+        <state relative-caret-position="180">
+          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>

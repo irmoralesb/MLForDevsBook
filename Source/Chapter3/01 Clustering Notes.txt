@@ -75,9 +75,16 @@ It has many configurations, but the following is using the semi-supervised appro
 
 === Pros and cons ===
 Pros
-    Simplicity, no neeed of tune parameters
+    Simplicity, no need of tune parameters
     No formal training needed
 
 Cons
     Computational expensive, a recommendation is to use cache
+
+********************* Elbow Method *********************
+
+This is useful to detect the correct number of clusters. it checks the inter-cluster distance, when it stop changing
+for a large amount, then you found the correct number of clusters
+
+
 
