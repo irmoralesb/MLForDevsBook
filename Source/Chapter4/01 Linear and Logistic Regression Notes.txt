@@ -1,0 +1,86 @@
+===================== Regression =====================
+
+We want to determine the relationship between the indeendent variable and a dependent variable.
+
+Types:
+* Linear
+* Polynomial
+* Exponential
+
+These techniques will aim to determine an objective function,
+which in our case will output a finite number of unknown optimum parameters of the function,
+called parametric regression techniques.
+
+Application:
+
+It's applied to in order to predict future variable values, it also is useful to optimize processes finding common
+ground between related and dispersed data.
+
+===================== Linear regression =====================
+
+Find a linear equation that minimizes the distance between the data points and the modeled line.
+    yi = Bxi + a + ei
+
+a = is intercept
+B = is the slope
+x = is the independent variable
+y = dependent variable (aka. the regressor)
+e = is the error or distance from the sample i to the regressed line
+
+This is the cost function!!!
+The most commonly used cost function for linear regression is "least squares"
+
+For a 2D regression the formula is:
+
+J(B0,B1) = Sum((yi - B0 - B1 * xi)²)
+
+
+===================== Ways to minimize errors =====================
+* The analytical way
+    This is a math process and can be implemented by using the formula described in the book
+    Pros:
+        * Since it is using maths, no guessing is involved
+    Cons:
+        * Computationally intensive O(n²) or even O(n³)
+        * Using floating point capacity of the current hardware, so it may be limited depending on type of data
+
+* Using covariance and correlation values
+    This is more statistical approach
+    Covariance: A measure of the systematic relationship between a pair of random variables wherein a change
+                in one variable is reciprocated by an equivalent change in another variable
+                Negative value = negative relationship
+                Positive value = positive relationship
+                When 0 = no direct linear relationship => blob-like distribution
+
+        cov(x, y) = 1/n (Sum(xi-x_hati)(y-y_hat))
+
+    Correlation: The correlation value determines the degree to which two or more random variables move in tandem.
+                 The movement of one variable is concordant with an equivalent movement in another variable,
+                 then the variables are said to be correlated.
+                 Positive (aka directly correlated): the values move to the same direction. Value tends to +1
+                 Negative (aka inverse correlated): the values move to opposite direction. Value tends to -1
+
+        r = 1/n(sum(x_i-x_hatj)(y-y_hat)/(sig_x1 * sig_y))
+
+
+
+* The gradient descent way
+    It uses: model function and error function
+    So this graph is a 3d, and it may get a convex curve, so there is a minimum value to look at,
+    but also may exist bumps to look at.
+
+    * Start at a random position (remember, we don't know anything about the surface yet)
+    * Look for the direction of maximum change (as the function is convex, we know it will guide us to the minimum)
+    * Advance over the error surface in that direction, proportionally to the error amount
+    * Adjust the starting point of the next step to the new point on the surface where we landed and repeat the process
+
+
+Steps
+
+1) Generate random parameter values
+2) Calculate gradient on the error surface
+3) Change param in the gradient direction a step (scaled by alpha)
+4) Error < E or Iteration > max ?
+    Yes. Step 3
+    No. Continue
+5) End of process
