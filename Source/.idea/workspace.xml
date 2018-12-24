@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="429b9845-c63c-4041-b736-39db87787c2d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/irmorales.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter4/02 dataExploration_and_linearRegression.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter4/01 Linear and Logistic Regression Notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter4/01 Linear and Logistic Regression Notes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter4/02 dataExploration_and_linearRegression.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter4/02 dataExploration_and_linearRegression.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter4/03 polynomialRegression.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter4/03 polynomialRegression.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,12 +24,24 @@
     <SUITE FILE_PATH="coverage/Source$05_logisticDistribution.coverage" NAME="05 logisticDistribution Coverage Results" MODIFIED="1545173643337" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Charpter1" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Chapter4/03 polynomialRegression.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Chapter4/02 dataExploration_and_linearRegression.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="90">
+              <caret line="6" column="18" lean-forward="true" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -78,6 +89,7 @@
         <option value="$PROJECT_DIR$/Chapter4/01 Linear and Logistic Regression Notes.txt" />
         <option value="$PROJECT_DIR$/Chapter4/01 dataExploration_and_linearRegression.py" />
         <option value="$PROJECT_DIR$/Chapter4/02 dataExploration_and_linearRegression.py" />
+        <option value="$PROJECT_DIR$/Chapter4/03 polynomialRegression.py" />
       </list>
     </option>
   </component>
@@ -132,11 +144,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.02 dataExploration_and_linearRegression">
+  <component name="RunManager" selected="Python.03 polynomialRegression">
     <configuration name="02 dataExploration_and_linearRegression" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Source" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter4" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -196,6 +211,25 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="03 polynomialRegression" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Source" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter4" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter4/03 polynomialRegression.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="Source" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -240,35 +274,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="parameterInitialization" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Source" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter2" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter2/parameterInitialization.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.03 polynomialRegression" />
         <item itemvalue="Python.02 dataExploration_and_linearRegression" />
         <item itemvalue="Python.03 Nearest neighbors" />
         <item itemvalue="Python.02 kmeans" />
         <item itemvalue="Python.confusionMatrix" />
-        <item itemvalue="Python.parameterInitialization" />
       </list>
     </recent_temporary>
   </component>
@@ -298,7 +310,8 @@
       <workItem from="1545585771364" duration="126000" />
       <workItem from="1545588654009" duration="1661000" />
       <workItem from="1545659701913" duration="5227000" />
-      <workItem from="1545675779522" duration="2469000" />
+      <workItem from="1545675779522" duration="5060000" />
+      <workItem from="1545687681079" duration="1091000" />
     </task>
     <task id="LOCAL-00001" summary="Adding Chapter 2 exercises for exploratory analysis and 2d images">
       <created>1545241275376</created>
@@ -356,17 +369,31 @@
       <option name="project" value="LOCAL" />
       <updated>1545589952178</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Added 02 dataExploation_and_linearRegression file, WIP">
+      <created>1545678439867</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1545678439867</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Modified 02 dataExploation_and_linearRegression file, completed&#10;Added 03 polynomialRegression file (empty)">
+      <created>1545683336383</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1545683336383</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34397000" />
+    <option name="totallyTimeSpent" value="38079000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1916" y="0" width="1928" height="1084" extended-state="6" />
+    <frame x="1920" y="0" width="1920" height="1080" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.092315905" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.09338314" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -381,15 +408,15 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.24369748" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="12" visible="true" weight="0.19957983" />
+      <window_info anchor="bottom" id="Python Console" order="12" visible="true" weight="0.19957983" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" sideWeight="0.5643045" visible="true" weight="0.3004269" />
+      <window_info anchor="right" id="SciView" order="3" sideWeight="0.843832" visible="true" weight="0.3724653" />
       <window_info anchor="right" id="R Graphics" order="4" />
       <window_info anchor="right" id="R Packages" order="5" />
       <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" x="0" y="0" width="430" height="880" id="Documentation" order="7" sideWeight="0.43569553" side_tool="true" visible="true" weight="0.3004269" />
+      <window_info anchor="right" x="0" y="0" width="430" height="880" id="Documentation" order="7" sideWeight="0.15616798" side_tool="true" visible="true" weight="0.3724653" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -443,7 +470,9 @@
     <MESSAGE value="Modified &quot;02 kmeans.py&quot; completed, but there seems to be a bug in the chart.&#10;Added &quot;03 Nearest neighbors&quot; file, empty." />
     <MESSAGE value="Modified &quot;03 Nearest neighbors&quot; file, implemented." />
     <MESSAGE value="Renamed Chapter 2 folder&#10;Added Chapter 4 folder" />
-    <option name="LAST_COMMIT_MESSAGE" value="Renamed Chapter 2 folder&#10;Added Chapter 4 folder" />
+    <MESSAGE value="Added 02 dataExploation_and_linearRegression file, WIP" />
+    <MESSAGE value="Modified 02 dataExploation_and_linearRegression file, completed&#10;Added 03 polynomialRegression file (empty)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modified 02 dataExploation_and_linearRegression file, completed&#10;Added 03 polynomialRegression file (empty)" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Charpter1/01 theMean.py" />
@@ -505,9 +534,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter4/01 dataExploration_and_linearRegression.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter4/01 dataExploration_and_linearRegression.py" />
     <entry file="file://$PROJECT_DIR$/Chapter4/01 Linear and Logistic Regression Notes.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="423">
@@ -517,10 +544,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Chapter4/02 dataExploration_and_linearRegression.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="90">
+          <caret line="6" column="18" lean-forward="true" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter4/03 polynomialRegression.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
           </folding>
         </state>
       </provider>

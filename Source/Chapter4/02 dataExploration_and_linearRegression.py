@@ -1,5 +1,4 @@
 import numpy as np
-from sklearn import datasets
 import seaborn.apionly as sns
 import matplotlib.pyplot as plt
 
@@ -38,7 +37,9 @@ X = iris2['petal_width']
 Y = iris2['petal_length']
 
 plt.scatter(X, Y)
-#plt.show()
+
+
+# plt.show()
 
 
 # Creating the prediction function
