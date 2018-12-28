@@ -17,8 +17,9 @@ plt.show()
 
 # Creating logistic regression model
 logistic = linear_model.LogisticRegression(C=1e5)
-logistic.fit(df['age'].values.reshape(100, 1), df['chd'].values.reshape(100, 1))
-
+# logistic.fit(df['age'].values.reshape(100, 1), df['chd'].values.reshape(100, 1))
+# logistic.fit(np.reshape(df['age'], newshape=100), np.reshape(df['chd'], newshape=100))
+logistic.fit(np.array(df['age']).reshape(1, 100), np.array(df['chd']).reshape(1, 100))
 linear_model.LogisticRegression(C=100000.0, class_weight=None, dual=False,
                                 fit_intercept=True, intercept_scaling=1, max_iter=100,
                                 multi_class='ovr', n_jobs=1, penalty='l2', random_state=None,
