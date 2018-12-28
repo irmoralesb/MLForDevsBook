@@ -84,3 +84,24 @@ Steps
     Yes. Step 3
     No. Continue
 5) End of process
+
+===================== Logistic function =====================
+Properties of the logistic function
+  Model the probability of an event p, depending on one or more independent variables. For example, the probability
+      of being awarded a prize, given previous qualifications
+  Estimate (this is the regression part) p for a determined observation, related to the possibility of
+      the event not occurring.
+  Predict the effect of the change of independent variables using a binary response.
+  Classify observations by calculating the probability of an item being of a determined class.
+
+
+===================== Multiclass application – softmax regression =====================
+This logistic regression can also be conveniently generalized to account for many classes.
+
+In logistic regression we assumed that the labels were binary (y(i)∈{0,1}), but softmax regression allows us
+to handle y(i)∈{1,…,K}, where K is the number of classes and the label y can take on K different values,
+rather than only two.
+
+Given a test input x, we want to estimate the probability that P(y=k|x) for each value of k=1,…,K.
+The softmax regression will make this output a K-dimensional vector (whose elements sum to 1),
+giving us our K estimated probabilities
