@@ -1,0 +1,105 @@
+================= Neural Models =================
+
+* In the sense of being disciplines that try to buils representations of the internal workings of the brain in
+  the computer science timescale.
+
+***** McCulloch and Pitts model
+    f -> y = f(sum(xi * wi)) where i = 1, ..., i = n)
+
+***** Perceptron model *****
+
+ * This is one of the simples ways to represent an artificial neuron.
+
+ Steps
+
+1) Initialize the weights with a random (low value) distribution.
+2) Select an input vector and present it to the network.
+3) Compute the output y' of the network for the input vector specified and the values of the weights.
+The function for a perceptron is as follows:
+f(x) =| 1 if w * x + b > 0
+      | 0 otherwise
+
+4) If y’ ≠ y, modify all the connections, wi, by adding the changes Δw =yxi.
+5) Return to step 2.
+
+***** ADALINE algorithm *****
+
+This is a more advanced method than the Perceptron because it adds a new training method, gradient descent.
+
+1) Initialize the weights with a random (low value) distribution.
+2) Select an input vector and present it to the network.
+3) Compute the output y' of the network for the input vector specified and the values of the weights.
+4) The output value that we will be taking will be the one after the summation:
+    y=Σ(xi * wi)
+5) Compute the error, comparing the model output with the right label o:
+    E=(o-y)²
+    Does it look similar to something we have already seen? Yes! We are basically resolving a regression problem.
+
+6) Adjust the weights with the following gradient descent recursion:
+    w <- w + alpha(o - y)^x
+
+7) Return to step 2
+
+***** Single and multilayer perceptrons *****
+
+* Mainly used on 70's and 80's
+* Single layer is a special case of multilayer
+
+Innovations:
+* They are feedforward networks because the calculations, starting from the inputs, flow from layer to layer
+  without any cycling (information never returns)
+* They use the backpropagation method to adjust their weights
+* The use of the step function as a transfer function is replaced by non-linear ones such as the sigmoid
+
+***** The feedforward mechanism
+In this phase of the operation of the network, the data will be input in the first layer and will flow from each unit
+to the corresponding units in the following layers. Then it will be summed and passed through in the hidden layers,
+and finally processed by the output layer. This process is totally unidirectional, so we are avoiding any recursive
+complications in the data flow.
+
+***** Backpropagation - Optimization algorithm *****
+
+Backpropagation can be summarized as an algorithm used to calculate derivatives. The main attribute is that
+it is computationally efficient and works with complex functions.
+It is also a generalization of the least mean squares algorithm in the linear perceptron.
+
+In the backpropagation algorithm, the responsibility of the error will be distributed among all the functions
+applied to the data in the whole architecture. So, the goal is to minimize the error, the gradient of the loss
+function, over a set of deeply compounded functions, which will again receive the help of the chain rule.
+
+***** Steps
+
+1) Calculate the feedforward signals from the input to the output.
+2) Calculate output error E based on the prediction ak and the target tk.
+3) Backpropagate the error signals by weighting them by the weights in the previous layers and the gradients of the
+   associated activation functions.
+4) Calculate the gradients 𝛿E/𝛿θ for the parameters based on the backpropagated error signal and the feedforward
+   signals from the inputs.
+5) Update the parameters using the calculated gradients  θ ← θ - η 𝛿E/𝛿θ .
+
+
+***** Uses *****
+
+1) Regression/function approximation problems
+2) Classification problems (two classes, one output)
+3) Classification problems (multiple-classes, one output per class)
+
+
+================ Loss functions ================
+
+* L1, aka LAD (least absolute deviation) or LAE (least absolute error)
+* L2
+
+L1 vs L2
+Robustness: L1 is a more robust loss function, which can be expressed as the resistance of the function when being
+            affected by outliers, which projects a quadratic function to very high values. Thus, in order to choose an
+            L2 function, we should have very stringent data cleaning for it to be efficient.
+
+Stability: The stability property assesses how much the error curve jumps for a large error value. L1 is more unstable,
+            especially for non-normalized datasets (because numbers in the [-1, 1] range diminish when squared).
+
+Solution uniqueness: As can be inferred by its quadratic nature, the L2 function ensures that we will have a unique
+                     answer for our search for a minimum. L2 always has a unique solution, but L1 can have many
+                     solutions, due to the fact that we can find many paths with minimal length for our models in the
+                     form of piecewise linear functions, compared to the single line distance in the case of L2.
+
