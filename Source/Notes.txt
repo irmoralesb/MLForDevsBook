@@ -1,0 +1,8 @@
+To install cv2 package use
+pip install opencv-python
+
+to install tensorflow use
+https://www.tensorflow.org/install/pip
+pip install --upgrade tensorflow
+#### Not running on windows, the link contains repo for AMD, I'm using Intel
+#### It runs correctly on Linux
