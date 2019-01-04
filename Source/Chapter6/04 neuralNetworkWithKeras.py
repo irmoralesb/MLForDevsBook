@@ -15,7 +15,8 @@ im = cv2.resize(cv2.imread('blue_jay.jpg'), (299, 299))
 im = np.expand_dims(im, axis=0)
 im = im / 255
 im = im * 2
-plt.figure(im[0], cmap=plt.get_cmap('binary_r'))
+plt.figure(figsize=(10, 10))
+plt.imshow(im[0], cmap=plt.get_cmap('binary_r'))
 plt.show()
 
 out = model.predict(im)
